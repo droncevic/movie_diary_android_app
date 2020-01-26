@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MovieDiary</string>
+    <string name="new_diary_entry">New Diary Entry</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1$s crimes</string>
+    <string name="choose_menu_title">Movie Diary</string>
+    <string name="view_all_diary_entries">View Movie Diary</string>
+    <string name="remove_diary_entry">Remove Movie Diary Entry</string>
+    <string name="update_diary_entry">Update Movie Diary</string>
+    <string name="add_diary_entry">Add Movie Diary Entry</string>
+    <string name="type">Type</string>
+    <string name="add_title">Title</string>
+    <string name="string_movie">Movie</string>
+    <string name="string_series">Series</string>
+    <string name="add_impression">Impression</string>
+    <string name="add_my_rating">My Rating</string>
+    <string name="enter_entry_id">Enter Movie/Series id</string>
+    <string name="settings">Settings</string>
+</resources>

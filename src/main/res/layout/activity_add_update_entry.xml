@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@color/cardview_dark_background"
+    android:paddingTop="30dp">
+    <EditText
+        android:id="@+id/edit_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/cardview_light_background"
+        android:hint="@string/add_title"
+        android:padding="@dimen/view_padding"
+        android:textSize="@dimen/add_edit_textsize"/>
+
+    <EditText
+        android:id="@+id/edit_text_myrating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/cardview_light_background"
+        android:hint="@string/add_my_rating"
+        android:inputType="number"
+        android:paddingTop="15dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_impr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/cardview_light_background"
+        android:hint="@string/add_impression"
+        android:inputType="textImeMultiLine"
+        android:paddingTop="15dp" />
+
+    <Button
+        android:id="@+id/button_add_update_entry"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/button_padding"
+        android:text="@string/add_diary_entry"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
